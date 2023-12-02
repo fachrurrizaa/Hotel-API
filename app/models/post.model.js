@@ -2,7 +2,7 @@ module.exports = (mongoose) => {
     const postSchema = mongoose.Schema({
         name: String,
         description: String,
-        facility: String,
+        facility: [String],
         location: String,
         price: Number,
         images: [String],
