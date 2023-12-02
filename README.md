@@ -30,7 +30,7 @@ Mengembalikan daftar semua post hotel.
       "location": "Lokasi Hotel",
       "price": 100.00,
       "images": ["URL_Gambar_1", "URL_Gambar_2"],
-      "link": "URL_Website_Hotel"
+      "link": "URL_GMap_Hotel"
     },
     // ... post lainnya
   ]
@@ -55,7 +55,7 @@ Membuat post baru untuk hotel dengan informasi yang diberikan.
     "location": "Lokasi Hotel",
     "price": 100.00,
     "images": ["Gambar_1", "Gambar_2"],
-    "link": "URL_Website_Hotel"
+    "link": "URL_GMap_Hotel"
   }
   ```
 
@@ -72,7 +72,7 @@ Membuat post baru untuk hotel dengan informasi yang diberikan.
       "location": "Lokasi Hotel",
       "price": 100.00,
       "images": ["URL_Gambar_1", "URL_Gambar_2"],
-      "link": "URL_Website_Hotel"
+      "link": "URL_GMap_Hotel"
     }
   }
   ```
@@ -100,7 +100,7 @@ Mengambil informasi post hotel berdasarkan ID.
     "location": "Lokasi Hotel",
     "price": 100.00,
     "images": ["URL_Gambar_1", "URL_Gambar_2"],
-    "link": "URL_Website_Hotel"
+    "link": "URL_GMap_Hotel"
   }
   ```
 
@@ -123,7 +123,7 @@ Memperbarui informasi post hotel berdasarkan ID.
     "location": "Lokasi Hotel Baru",
     "price": 150.00,
     "images": ["URL_Gambar_Baru_1", "URL_Gambar_Baru_2"],
-    "link": "URL_Website_Hotel_Baru"
+    "link": "URL_GMap_Hotel"
   }
   ```
 
